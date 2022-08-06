@@ -11,6 +11,17 @@
 		B04F0E9C287325FE00C80F77 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04F0E9B287325FE00C80F77 /* ContentView.swift */; };
 		B04F0E9E2873260000C80F77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B04F0E9D2873260000C80F77 /* Assets.xcassets */; };
 		B04F0EA12873260000C80F77 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B04F0EA02873260000C80F77 /* Preview Assets.xcassets */; };
+		B04F0EA92873283A00C80F77 /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04F0EA82873283A00C80F77 /* MainScreenView.swift */; };
+		B04F0EAB2873287200C80F77 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04F0EAA2873287200C80F77 /* SearchView.swift */; };
+		B04F0EAD28733F8700C80F77 /* FolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04F0EAC28733F8700C80F77 /* FolderView.swift */; };
+		B04F0EAF28733FB400C80F77 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04F0EAE28733FB400C80F77 /* SettingView.swift */; };
+		B0A6B953287482C8002E7CEC /* VideoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A6B952287482C8002E7CEC /* VideoDetailView.swift */; };
+		B0A6B95528748731002E7CEC /* TrackableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A6B95428748731002E7CEC /* TrackableScrollView.swift */; };
+		B0B7C3B62879F5EA00D23CD0 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B7C3B52879F5EA00D23CD0 /* AppState.swift */; };
+		B0B7C3B82879F9BC00D23CD0 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B7C3B72879F9BC00D23CD0 /* VideoModel.swift */; };
+		B0B7C3BC2879FB4000D23CD0 /* LocalFileRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B7C3BB2879FB4000D23CD0 /* LocalFileRepository.swift */; };
+		B0B7C3BF2879FDF900D23CD0 /* VideoInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B7C3BE2879FDF900D23CD0 /* VideoInteractor.swift */; };
+		B0B7C3C22879FF5B00D23CD0 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B7C3C12879FF5B00D23CD0 /* AppEnvironment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,17 @@
 		B04F0E9B287325FE00C80F77 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B04F0E9D2873260000C80F77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B04F0EA02873260000C80F77 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B04F0EA82873283A00C80F77 /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
+		B04F0EAA2873287200C80F77 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		B04F0EAC28733F8700C80F77 /* FolderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderView.swift; sourceTree = "<group>"; };
+		B04F0EAE28733FB400C80F77 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		B0A6B952287482C8002E7CEC /* VideoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetailView.swift; sourceTree = "<group>"; };
+		B0A6B95428748731002E7CEC /* TrackableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackableScrollView.swift; sourceTree = "<group>"; };
+		B0B7C3B52879F5EA00D23CD0 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		B0B7C3B72879F9BC00D23CD0 /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		B0B7C3BB2879FB4000D23CD0 /* LocalFileRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileRepository.swift; sourceTree = "<group>"; };
+		B0B7C3BE2879FDF900D23CD0 /* VideoInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoInteractor.swift; sourceTree = "<group>"; };
+		B0B7C3C12879FF5B00D23CD0 /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +73,12 @@
 		B04F0E98287325FE00C80F77 /* Phantom */ = {
 			isa = PBXGroup;
 			children = (
+				B0B7C3C02879FF4600D23CD0 /* System */,
+				B0B7C3BD2879FDCC00D23CD0 /* Interactors */,
+				B0B7C3BA2879FB0500D23CD0 /* Repository */,
+				B0B7C3B42879F5D200D23CD0 /* Injected */,
+				B04F0EB2287349FC00C80F77 /* Model */,
+				B04F0EB0287349A000C80F77 /* UI */,
 				B04F0E99287325FE00C80F77 /* PhantomApp.swift */,
 				B04F0E9B287325FE00C80F77 /* ContentView.swift */,
 				B04F0E9D2873260000C80F77 /* Assets.xcassets */,
@@ -65,6 +93,75 @@
 				B04F0EA02873260000C80F77 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B04F0EB0287349A000C80F77 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B04F0EB1287349A800C80F77 /* Screen */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		B04F0EB1287349A800C80F77 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				B0A6B951287482AC002E7CEC /* Main */,
+				B0A6B952287482C8002E7CEC /* VideoDetailView.swift */,
+				B0A6B95428748731002E7CEC /* TrackableScrollView.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		B04F0EB2287349FC00C80F77 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B0B7C3B72879F9BC00D23CD0 /* VideoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B0A6B951287482AC002E7CEC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B04F0EA82873283A00C80F77 /* MainScreenView.swift */,
+				B04F0EAA2873287200C80F77 /* SearchView.swift */,
+				B04F0EAC28733F8700C80F77 /* FolderView.swift */,
+				B04F0EAE28733FB400C80F77 /* SettingView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B0B7C3B42879F5D200D23CD0 /* Injected */ = {
+			isa = PBXGroup;
+			children = (
+				B0B7C3B52879F5EA00D23CD0 /* AppState.swift */,
+			);
+			path = Injected;
+			sourceTree = "<group>";
+		};
+		B0B7C3BA2879FB0500D23CD0 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				B0B7C3BB2879FB4000D23CD0 /* LocalFileRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		B0B7C3BD2879FDCC00D23CD0 /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				B0B7C3BE2879FDF900D23CD0 /* VideoInteractor.swift */,
+			);
+			path = Interactors;
+			sourceTree = "<group>";
+		};
+		B0B7C3C02879FF4600D23CD0 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				B0B7C3C12879FF5B00D23CD0 /* AppEnvironment.swift */,
+			);
+			path = System;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +234,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0A6B953287482C8002E7CEC /* VideoDetailView.swift in Sources */,
+				B04F0EAD28733F8700C80F77 /* FolderView.swift in Sources */,
+				B0B7C3BC2879FB4000D23CD0 /* LocalFileRepository.swift in Sources */,
+				B04F0EAB2873287200C80F77 /* SearchView.swift in Sources */,
+				B0B7C3B62879F5EA00D23CD0 /* AppState.swift in Sources */,
+				B04F0EA92873283A00C80F77 /* MainScreenView.swift in Sources */,
+				B04F0EAF28733FB400C80F77 /* SettingView.swift in Sources */,
 				B04F0E9C287325FE00C80F77 /* ContentView.swift in Sources */,
+				B0B7C3C22879FF5B00D23CD0 /* AppEnvironment.swift in Sources */,
 				B04F0E9A287325FE00C80F77 /* PhantomApp.swift in Sources */,
+				B0A6B95528748731002E7CEC /* TrackableScrollView.swift in Sources */,
+				B0B7C3BF2879FDF900D23CD0 /* VideoInteractor.swift in Sources */,
+				B0B7C3B82879F9BC00D23CD0 /* VideoModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +372,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Phantom/Preview Content\"";
@@ -293,6 +402,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Phantom/Preview Content\"";

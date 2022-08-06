@@ -6,11 +6,31 @@
 //
 
 import SwiftUI
+import AVKit
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TabView {
+            MainScreenView()
+                .tabItem {
+                    Image(systemName: "play.circle")
+                }
+            
+            SearchView()
+                .tabItem {
+                    Image(systemName: "magnifyingglass")
+                }
+            
+            FolderView()
+                .tabItem {
+                    Image(systemName: "folder")
+                }
+            
+            SettingView()
+                .tabItem {
+                    Image(systemName: "gearshape")
+                }
+        }
     }
 }
 
